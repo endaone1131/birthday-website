@@ -1,0 +1,99 @@
+#image {  
+    border-radius: 50%;
+    border: 5px solid #EFB0C9;
+}
+
+body {  
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(lightblue
+    , pink)
+}
+h1, h2, h4{  
+    text-shadow: 0px 0px 2px black;
+}
+
+h2, h4 {  
+    background-color: #EFB0C9;
+}
+
+.header{  
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+#bday-age {  
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {  
+    background-color: #EFB0C9;
+    word-spacing: 50px;
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+#gift-image1{  
+border: 5px solid white;
+border-radius: 10px;
+width: 400px;
+height: 400px;
+background-image: url("./cover.jpg") ;
+background-size: cover;
+margin: 0px auto;
+
+   }
+
+
+   #gift-image1:hover{  
+    
+    background-image: url("./folder/giphy1.gif") ;
+    
+       }
+
+       #gift-image2{  
+        border: 5px solid white;
+        border-radius: 10px;
+        width: 400px;
+        height: 400px;
+        background-image: url("./cover.jpg") ;
+        background-size: cover;
+        margin: 0px auto;
+        
+           }
+        
+        
+           #gift-image2:hover{  
+            
+            background-image: url("./folder/party.gif") ;
+        object-fit: cover;
+            
+               }
+
+
+               #gift-image3{  
+                border: 5px solid white;
+                border-radius: 10px;
+                width: 400px;
+                height: 400px;
+                background-image: url("./cover.jpg") ;
+                background-size: cover;
+                margin: 0px auto;
+                
+                   }
+                
+                
+                   #gift-image3:hover{  
+                    
+                    background-image: url("./folder/gift1.gif") ;
+                    background-size: cover;
+                    
+                       }
